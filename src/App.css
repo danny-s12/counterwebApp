@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.counter-page{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  width: 100%;
+  min-height: 100vh;
+}
+.counter-card{
+  background-color:burlywood;
+  padding: 30px;
+  border-radius: 12px-18px;
+  box-shadow: cornflowerblue;
+  width: 360px;
+  text-align: center;
+}
+.counter-title{
+  font-size: 24px;
+  margin-bottom: auto;
+  text-decoration-color: cadetblue;
+  color: black;
+
+}
+.counter-value{
+  font-size: 64px;
+  font-weight: bold;
+  margin: auto;
+  color: black;
+}
+.counter-actions{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn{
+  padding: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+.btn:hover{
+  transform:translateY(-2px);
+}
+.btn-primary{
+  background-color: aqua;
+  text-decoration-color: black;
+  color: black;
+}
+.btn-danger{
+  background-color: aqua;
+  text-decoration-color: black;
+  color: black;
+}
+.btn-secondary{
+  background-color: aqua;
+  text-decoration-color: black;
+  color: black;
+}
